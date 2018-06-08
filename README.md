@@ -41,4 +41,5 @@ Por último, trabajamos en la implementación de nuestra interfaz, dándole
 prioridad a implementar los requisitos esenciales que se nos pidieron en 
 nuestro proyecto.
 
-
+En nuestra carpeta src/fotos/ puede acceder a las fotografías de nuestros 
+sketch en baja definición.
