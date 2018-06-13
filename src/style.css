@@ -1,5 +1,86 @@
-/* Rectangle 2.5 */
+* {
+				margin:0px;
+				padding:0px;
+			}
 
+			#esp {
+				background-color: #FFE521;
+				align-content: center;
+
+			}
+			
+			#header {
+				margin:auto;
+				width:500px;
+				font-family:Arial, Helvetica, sans-serif;
+			}
+			.row{
+                 width: 100%;
+             }
+
+            [class*="col-"] {
+            min-height: 7px;
+             padding: 12px;
+            float: left;
+
+             } 
+             .col-3 {
+            /* (3/12) x 100 */
+              width: 25%;
+              
+             }
+             .pos {
+             	display: block;
+             }
+
+			ul, ol {
+				list-style:none;
+			}
+			
+			.nav > li {
+				float:left;
+			}
+			
+			.nav li a {
+				background-color:#56F89A;
+				color:#fff;
+				text-decoration:none;
+				padding:10px 12px;
+				display:block;
+			}
+			
+			.nav li a:hover {
+				background-color:#000;
+			}
+			
+			.nav li ul {
+				display:none;
+				position:absolute;
+				min-width:140px;
+			}
+			
+			.nav li:hover > ul {
+				display:block;
+			}
+			
+			.nav li ul li {
+				position:relative;
+			}
+			
+			.nav li ul li ul {
+				right:-140px;
+				top:0px;
+			}
+
+			#but {
+				background-color: #FFE521;
+			}
+			
+
+
+
+/* Rectangle 2.5 */
+/*
 position: absolute;
 width: 145px;
 height: 32px;
@@ -9,7 +90,7 @@ background: #56F89A;
 
 /* Rectangle 2.4 */
 
-position: absolute;
+/*position: absolute;
 width: 132px;
 height: 32px;
 
@@ -18,7 +99,7 @@ background: #56F89A;
 
 /* Rectangle */
 
-position: absolute;
+/*position: absolute;
 width: 901px;
 height: 150px;
 
@@ -27,7 +108,7 @@ background: #FFE521;
 
 /* Frame */
 
-position: relative;
+/*position: relative;
 width: 132px;
 height: 96px;
 
@@ -36,7 +117,7 @@ background: #FFFFFF;
 
 /* Rectangle 2 */
 
-position: absolute;
+/*position: absolute;
 width: 132px;
 height: 32px;
 left: -1px;
@@ -47,7 +128,7 @@ background: #56F89A;
 
 /* Line */
 
-position: absolute;
+/*position: absolute;
 width: 1535px;
 height: 0px;
 left: 0px;
@@ -58,7 +139,7 @@ border: 1px solid #000000;
 
 /* INICIO */
 
-position: absolute;
+/*position: absolute;
 width: 46px;
 height: 20px;
 left: 42px;
@@ -75,7 +156,7 @@ color: #000000;
 
 /* Rectangle 2.3 */
 
-position: absolute;
+/*position: absolute;
 width: 132px;
 height: 32px;
 left: 0px;
@@ -87,7 +168,7 @@ transform: matrix(1, 0, 0, -1, 0, 0);
 
 /* ESTADÍSTICAS */
 
-position: absolute;
+/*position: absolute;
 width: 96px;
 height: 20px;
 left: 13px;
@@ -104,7 +185,7 @@ color: #000000;
 
 /* AYUDA */
 
-position: absolute;
+/*position: absolute;
 width: 50px;
 height: 20px;
 
@@ -119,7 +200,7 @@ color: #000000;
 
 /* Rectangle 2.2 */
 
-position: absolute;
+/*position: absolute;
 width: 132px;
 height: 32px;
 
@@ -133,7 +214,7 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
 /* Rectangle 5 */
 
-position: absolute;
+/*position: absolute;
 width: 153px;
 height: 100px;
 
@@ -142,7 +223,7 @@ background: #FF009E;
 
 /* Rectangle 4 */
 
-position: absolute;
+/*position: absolute;
 width: 132px;
 height: 252px;
 
@@ -151,7 +232,7 @@ background: #FFE521;
 
 /* Busqueda */
 
-position: absolute;
+/*position: absolute;
 width: 53px;
 height: 15px;
 
@@ -166,7 +247,7 @@ color: #000000;
 
 /* Rectangle 3 */
 
-position: absolute;
+/*position: absolute;
 width: 37px;
 height: 23px;
 
@@ -175,7 +256,7 @@ background: #FFE521;
 
 /* Rectangle 5.1 */
 
-position: absolute;
+/*position: absolute;
 width: 153px;
 height: 100px;
 
@@ -184,7 +265,7 @@ background: #FF009E;
 
 /* Cantidad de alumnas Inscritas */
 
-position: absolute;
+/*position: absolute;
 width: 93px;
 height: 62px;
 
@@ -199,7 +280,7 @@ color: #FBFFFD;
 
 /* Rectangle 5.2 */
 
-position: absolute;
+/*position: absolute;
 width: 153px;
 height: 100px;
 
@@ -208,7 +289,7 @@ background: #FF009E;
 
 /* < L > */
 
-position: absolute;
+/*position: absolute;
 width: 115px;
 height: 88px;
 
@@ -223,7 +304,7 @@ color: #FBFFFD;
 
 /* < Laboratoria > */
 
-position: absolute;
+/*position: absolute;
 width: 363px;
 height: 67px;
 
@@ -239,7 +320,7 @@ mix-blend-mode: normal;
 
 /* < L > */
 
-position: absolute;
+/*position: absolute;
 width: 27px;
 height: 17px;
 
@@ -254,7 +335,7 @@ color: #000000;
 
 /* < */
 
-position: absolute;
+/*position: absolute;
 width: 6px;
 height: 15px;
 
@@ -268,7 +349,7 @@ color: #000000;
 
 
 /* Rectangle 5.3 */
-
+/*
 position: absolute;
 width: 153px;
 height: 100px;
@@ -278,7 +359,7 @@ background: #FF009E;
 
 /* Rectangle 6 */
 
-position: absolute;
+/*position: absolute;
 width: 132px;
 height: 150px;
 
@@ -287,7 +368,7 @@ background: #FBFFFD;
 
 /* Bienvenida: Valentina */
 
-position: absolute;
+/*position: absolute;
 width: 110px;
 height: 50px;
 
@@ -302,8 +383,7 @@ color: #000000;
 
 /* Rectangle 2 */
 
-position: absolute;
-width: 132px;
+/*width: 132px;
 height: 32px;
 
 background: #56F89A;
@@ -311,7 +391,7 @@ background: #56F89A;
 
 /* CONTACTOS */
 
-position: absolute;
+/*position: absolute;
 width: 94px;
 height: 20px;
 
@@ -326,7 +406,7 @@ color: #000000;
 
 /* COHORT */
 
-position: absolute;
+/*position: absolute;
 width: 60px;
 height: 20px;
 
@@ -341,7 +421,7 @@ color: #000000;
 
 /* > */
 
-position: absolute;
+/*position: absolute;
 width: 14px;
 height: 33px;
 
@@ -357,7 +437,7 @@ transform: rotate(88.17deg);
 
 /* Line */
 
-position: absolute;
+/*position: absolute;
 width: 20px;
 height: 0px;
 
@@ -367,7 +447,7 @@ transform: rotate(90deg);
 
 /* Talento que Transforma */
 
-position: absolute;
+/*position: absolute;
 width: 224px;
 height: 25px;
 
@@ -382,7 +462,7 @@ color: #000000;
 
 /* Porcentaje de cursos Completados */
 
-position: absolute;
+/*position: absolute;
 width: 99px;
 height: 62px;
 
@@ -397,7 +477,7 @@ color: #FBFFFD;
 
 /* Porcentaje general de progreso */
 
-position: absolute;
+/*position: absolute;
 width: 87px;
 height: 62px;
 
@@ -412,7 +492,7 @@ color: #FBFFFD;
 
 /* Rectangle 2.6 */
 
-position: absolute;
+/*position: absolute;
 width: 132px;
 height: 32px;
 
@@ -421,7 +501,7 @@ background: #56F89A;
 
 /* CERRAR SESIÓN */
 
-position: absolute;
+/*position: absolute;
 width: 109px;
 height: 20px;
 
@@ -432,3 +512,4 @@ line-height: normal;
 font-size: 14px;
 
 color: #000000;
+*/
