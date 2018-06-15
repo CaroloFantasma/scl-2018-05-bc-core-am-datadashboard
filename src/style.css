@@ -1,5 +1,300 @@
-/* Rectangle 2.5 */
+* {
+				margin:0px;
+				padding:0px;
+			}
 
+.container-fluid {
+	width: 100%;
+  max-width: 1600px;
+  margin: 0;
+}
+
+.headOne{
+	background-color: white;
+	color: #000;
+	padding: 5%;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align: center;
+
+
+}
+
+.headTwo {
+				background-color: #FFE521;
+				padding: 5%;
+				align-content: center;
+				width:500px;
+				font-family:Arial, Helvetica, sans-serif;
+				text-align: center;
+
+			}
+
+
+.pos {
+             	display: block;
+             }
+
+ul, ol {
+				list-style:none;
+			}
+
+			
+.tableOne li a {
+				background-color:#56F89A;
+				width: 100%;
+				color:#fff;
+				text-decoration:none;
+				/*border-top: solid white;
+				border bottom: solid white;*/
+				border: 5px solid white;
+				font-family:Arial, Helvetica, sans-serif;
+				text-align: center;
+				font-size: 15px;
+				padding:20px 80px;
+				display:block;
+			}	
+
+.tableOne li a:hover {
+				background-color:#000;
+				display:block;
+			}	
+
+            
+.tableTwo li a  {
+
+				background-color:#56F89A;
+				color:#fff;
+				text-decoration:none;
+				padding:15px 20px;
+				display:block;
+				text-align: center;
+			}
+			
+.tableTwo li a:hover {
+				background-color:#000;
+			}
+			
+.tableTwo li ul {
+				display:none;
+				position:absolute;
+				min-width:140px;
+			}
+			
+.tableTwo li:hover > ul {
+				display:block;
+			}
+			
+.tableTwo li ul li {
+				position:relative;
+			}
+			
+.tableTwo li ul li ul {
+				right:-140px;
+				top:0px;
+			}
+
+.tableThree{
+	display: inline-table;
+
+}
+
+#but {
+	background-color: #FFE521;
+	color: #000;
+	width: 20%;
+	height: 20%;
+	font-size: 10px;
+			}
+  
+
+.tableFour{
+	background-color: #FFE521;
+	padding:4%;
+	background-size: cover;
+}    
+
+.tableFive{
+	background-color: #FF009E;
+	padding: 3%;
+	border: solid white;
+	color: white;
+	font-size: 25px;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align: center;
+
+
+}
+.tableSix{
+	background-color: #FFE521;
+	padding:3%;
+	background-size: cover;
+} 
+
+@media (min-width: 320px) and (max-width: 375px){
+	body{
+		[class*="col-"]{
+		width: 100%;
+		text-align: center;
+
+	}
+		
+	h1{
+		font-size: 40px;
+	}
+	h2{
+		font-size: 30px;
+
+	}
+	h3 {
+		font font-size: 20px;
+	}
+	p {
+		font font-size:8px;
+	}
+}
+
+@media (min-width: 376px) and (max-width: 666px){
+	body{
+		[class*="col-"]{
+		width: 100%;
+		text-align: center;
+
+	}
+		
+	h1{
+		font-size: 50px;
+	}
+	h2{
+		font-size: 40px;
+
+	}
+	h3 {
+		font font-size: 30px;
+	}
+	p {
+		font font-size:12px;
+	}
+}
+
+@media (min-width: 667px) and (max-width: 1024px){
+	body{
+		[class*="col-"]{
+		width: 100%;
+		text-align: center;
+
+	}
+		
+	
+	h1{
+		font-size: 60px;
+	}
+	h2{
+		font-size: 50px;
+
+	}
+	h3 {
+		font font-size: 40px;
+	}
+	p {
+		font font-size:15px;
+	}
+}
+
+@media (min-width: 1025px) and (max-width: 1600px){
+	body{
+		[class*="col-"]{
+		width: 100%;
+		text-align: center;
+
+	}
+		
+	
+	h1{
+		font-size: 80px;
+	}
+	h2{
+		font-size: 60px;
+
+	}
+	h3 {
+		font font-size: 40px;
+	}
+	p {
+		font font-size:15px;
+	}
+}
+
+/*
+@media (min-width: 200px) and (max-width: 425) {
+	[class*="col-"]{
+		width: 100%;
+		text-align: center;
+
+	}
+	}
+
+	@media (min-width: 425px) and (max-width: 768px){
+		[class*="col-"]{
+		width: 100%;
+		text-align: center;
+
+	}
+}
+             /*
+             .pos {
+             	display: block;
+             }
+
+			ul, ol {
+				list-style:none;
+			}
+			
+			/*
+			.nav > li {
+				float:left;
+			}
+			*/
+			/*
+			.nav li a {
+				background-color:#56F89A;
+				color:#fff;
+				text-decoration:none;
+				padding:10px 12px;
+				display:block;
+			}
+			
+			.nav li a:hover {
+				background-color:#000;
+			}
+			
+			.nav li ul {
+				display:none;
+				position:absolute;
+				min-width:140px;
+			}
+			
+			.nav li:hover > ul {
+				display:block;
+			}
+			
+			.nav li ul li {
+				position:relative;
+			}
+			
+			.nav li ul li ul {
+				right:-140px;
+				top:0px;
+			}
+
+			#but {
+				background-color: #FFE521;
+			}
+			
+
+
+
+/* Rectangle 2.5 */
+/*
 position: absolute;
 width: 145px;
 height: 32px;
@@ -9,7 +304,7 @@ background: #56F89A;
 
 /* Rectangle 2.4 */
 
-position: absolute;
+/*position: absolute;
 width: 132px;
 height: 32px;
 
@@ -18,7 +313,7 @@ background: #56F89A;
 
 /* Rectangle */
 
-position: absolute;
+/*position: absolute;
 width: 901px;
 height: 150px;
 
@@ -27,7 +322,7 @@ background: #FFE521;
 
 /* Frame */
 
-position: relative;
+/*position: relative;
 width: 132px;
 height: 96px;
 
@@ -36,7 +331,7 @@ background: #FFFFFF;
 
 /* Rectangle 2 */
 
-position: absolute;
+/*position: absolute;
 width: 132px;
 height: 32px;
 left: -1px;
@@ -47,7 +342,7 @@ background: #56F89A;
 
 /* Line */
 
-position: absolute;
+/*position: absolute;
 width: 1535px;
 height: 0px;
 left: 0px;
@@ -58,7 +353,7 @@ border: 1px solid #000000;
 
 /* INICIO */
 
-position: absolute;
+/*position: absolute;
 width: 46px;
 height: 20px;
 left: 42px;
@@ -75,7 +370,7 @@ color: #000000;
 
 /* Rectangle 2.3 */
 
-position: absolute;
+/*position: absolute;
 width: 132px;
 height: 32px;
 left: 0px;
@@ -87,7 +382,7 @@ transform: matrix(1, 0, 0, -1, 0, 0);
 
 /* ESTADÍSTICAS */
 
-position: absolute;
+/*position: absolute;
 width: 96px;
 height: 20px;
 left: 13px;
@@ -104,7 +399,7 @@ color: #000000;
 
 /* AYUDA */
 
-position: absolute;
+/*position: absolute;
 width: 50px;
 height: 20px;
 
@@ -119,7 +414,7 @@ color: #000000;
 
 /* Rectangle 2.2 */
 
-position: absolute;
+/*position: absolute;
 width: 132px;
 height: 32px;
 
@@ -133,7 +428,7 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
 /* Rectangle 5 */
 
-position: absolute;
+/*position: absolute;
 width: 153px;
 height: 100px;
 
@@ -142,7 +437,7 @@ background: #FF009E;
 
 /* Rectangle 4 */
 
-position: absolute;
+/*position: absolute;
 width: 132px;
 height: 252px;
 
@@ -151,7 +446,7 @@ background: #FFE521;
 
 /* Busqueda */
 
-position: absolute;
+/*position: absolute;
 width: 53px;
 height: 15px;
 
@@ -166,7 +461,7 @@ color: #000000;
 
 /* Rectangle 3 */
 
-position: absolute;
+/*position: absolute;
 width: 37px;
 height: 23px;
 
@@ -175,7 +470,7 @@ background: #FFE521;
 
 /* Rectangle 5.1 */
 
-position: absolute;
+/*position: absolute;
 width: 153px;
 height: 100px;
 
@@ -184,7 +479,7 @@ background: #FF009E;
 
 /* Cantidad de alumnas Inscritas */
 
-position: absolute;
+/*position: absolute;
 width: 93px;
 height: 62px;
 
@@ -199,7 +494,7 @@ color: #FBFFFD;
 
 /* Rectangle 5.2 */
 
-position: absolute;
+/*position: absolute;
 width: 153px;
 height: 100px;
 
@@ -208,7 +503,7 @@ background: #FF009E;
 
 /* < L > */
 
-position: absolute;
+/*position: absolute;
 width: 115px;
 height: 88px;
 
@@ -223,7 +518,7 @@ color: #FBFFFD;
 
 /* < Laboratoria > */
 
-position: absolute;
+/*position: absolute;
 width: 363px;
 height: 67px;
 
@@ -239,7 +534,7 @@ mix-blend-mode: normal;
 
 /* < L > */
 
-position: absolute;
+/*position: absolute;
 width: 27px;
 height: 17px;
 
@@ -254,7 +549,7 @@ color: #000000;
 
 /* < */
 
-position: absolute;
+/*position: absolute;
 width: 6px;
 height: 15px;
 
@@ -268,7 +563,7 @@ color: #000000;
 
 
 /* Rectangle 5.3 */
-
+/*
 position: absolute;
 width: 153px;
 height: 100px;
@@ -278,7 +573,7 @@ background: #FF009E;
 
 /* Rectangle 6 */
 
-position: absolute;
+/*position: absolute;
 width: 132px;
 height: 150px;
 
@@ -287,7 +582,7 @@ background: #FBFFFD;
 
 /* Bienvenida: Valentina */
 
-position: absolute;
+/*position: absolute;
 width: 110px;
 height: 50px;
 
@@ -302,8 +597,7 @@ color: #000000;
 
 /* Rectangle 2 */
 
-position: absolute;
-width: 132px;
+/*width: 132px;
 height: 32px;
 
 background: #56F89A;
@@ -311,7 +605,7 @@ background: #56F89A;
 
 /* CONTACTOS */
 
-position: absolute;
+/*position: absolute;
 width: 94px;
 height: 20px;
 
@@ -326,7 +620,7 @@ color: #000000;
 
 /* COHORT */
 
-position: absolute;
+/*position: absolute;
 width: 60px;
 height: 20px;
 
@@ -341,7 +635,7 @@ color: #000000;
 
 /* > */
 
-position: absolute;
+/*position: absolute;
 width: 14px;
 height: 33px;
 
@@ -357,7 +651,7 @@ transform: rotate(88.17deg);
 
 /* Line */
 
-position: absolute;
+/*position: absolute;
 width: 20px;
 height: 0px;
 
@@ -367,7 +661,7 @@ transform: rotate(90deg);
 
 /* Talento que Transforma */
 
-position: absolute;
+/*position: absolute;
 width: 224px;
 height: 25px;
 
@@ -382,7 +676,7 @@ color: #000000;
 
 /* Porcentaje de cursos Completados */
 
-position: absolute;
+/*position: absolute;
 width: 99px;
 height: 62px;
 
@@ -397,7 +691,7 @@ color: #FBFFFD;
 
 /* Porcentaje general de progreso */
 
-position: absolute;
+/*position: absolute;
 width: 87px;
 height: 62px;
 
@@ -412,7 +706,7 @@ color: #FBFFFD;
 
 /* Rectangle 2.6 */
 
-position: absolute;
+/*position: absolute;
 width: 132px;
 height: 32px;
 
@@ -421,7 +715,7 @@ background: #56F89A;
 
 /* CERRAR SESIÓN */
 
-position: absolute;
+/*position: absolute;
 width: 109px;
 height: 20px;
 
@@ -432,3 +726,4 @@ line-height: normal;
 font-size: 14px;
 
 color: #000000;
+*/
