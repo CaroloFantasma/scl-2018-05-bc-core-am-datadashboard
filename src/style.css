@@ -1,0 +1,32 @@
+.col-md-10 {
+  background-color: #ffc107;
+  width: 60px;
+  height: 100px;
+}
+
+.welcome {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 2%;
+}
+
+.secondRow {
+  background-color: #56F89A;
+}
+
+.cbg-info {
+  padding: 5%;
+  widows: 5px;
+}
+
+.col{
+  background-color: rgb(241, 47, 112);
+  margin: 2%;
+  width: 5%;
+  height: 30%;
+}
+
+img {
+  margin-left: 35%;
+  margin-top: 0.4%;
+}
