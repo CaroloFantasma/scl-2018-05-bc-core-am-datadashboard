@@ -29,3 +29,21 @@ Por último, trabajamos en la implementación de nuestra interfaz, dándole prio
 <b>Prototipo de baja fidelidad responsive</b>
 
 ![GitHub Logo](src\fotos\responsive.jpg)
+
+<b>Prototipo de alta fidelidad </b>
+
+![GitHub Logo](docs\data1.png)
+
+![GitHub Logo](docs\data2.png)
+
+![GitHub Logo](docs\data3.png)
+
+![GitHub Logo](docs\data4.png)
+
+<b>Prototipo de alta fidelidad responsive</b>
+
+![GitHub Logo](docs\responsive1.png)
+
+![GitHub Logo](docs\responsive2.png)
+
+![GitHub Logo](docs\responsive3.png)
