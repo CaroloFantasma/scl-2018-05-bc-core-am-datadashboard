@@ -20,30 +20,30 @@ Posteriormente, diseñamos un prototipo de interfaz de usuario de alta fidelidad
 Por último, trabajamos en la implementación de nuestra interfaz, dándole prioridad a implementar los requisitos esenciales que se nos pidieron en nuestro proyecto.
 
 <b>Prototipo de baja fidelidad </b>
-![GitHub Logo](src\fotos\sketch1.jpg)
+![alt text](src\fotos\sketch1.jpg)
 
-![GitHub Logo](src\fotos\sketch2.jpg)
+![alt text](src\fotos\sketch2.jpg)
 
-![GitHub Logo](src\fotos\sketch3chico.jpg)
+![alt text](src\fotos\sketch3chico.jpg)
 
 <b>Prototipo de baja fidelidad responsive</b>
 
-![GitHub Logo](src\fotos\responsive.jpg)
+![alt text](src\fotos\responsive.jpg)
 
 <b>Prototipo de alta fidelidad </b>
 
-![GitHub Logo](docs\data1.png)
+![alt text](docs\data1.png)
 
-![GitHub Logo](docs\data2.png)
+![alt text](docs\data2.png)
 
-![GitHub Logo](docs\data3.png)
+![alt text](docs\data3.png)
 
-![GitHub Logo](docs\data4.png)
+![alt text](docs\data4.png)
 
 <b>Prototipo de alta fidelidad responsive</b>
 
-![GitHub Logo](docs\responsive1.png)
+![alt text](docs\responsive1.png)
 
-![GitHub Logo](docs\responsive2.png)
+![alt text](docs\responsive2.png)
 
-![GitHub Logo](docs\responsive3.png)
+![alt text](docs\responsive3.png)
