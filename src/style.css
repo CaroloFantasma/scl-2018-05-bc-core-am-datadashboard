@@ -1,10 +1,10 @@
-* {
+/** {
 				margin:0px;
 				padding:0px;
-			}
+			}*/
 
 .container-fluid {
-	width: 100%;
+  width: 100%;
   max-width: 1600px;
   margin: 0;
 }
@@ -65,7 +65,7 @@ ul, ol {
 				background-color:#56F89A;
 				color:#fff;
 				text-decoration:none;
-				padding:15px 20px;
+				padding:10px 12px;
 				display:block;
 				text-align: center;
 			}
@@ -77,7 +77,7 @@ ul, ol {
 .tableTwo li ul {
 				display:none;
 				position:absolute;
-				min-width:140px;
+				min-width:80px;
 			}
 			
 .tableTwo li:hover > ul {
@@ -93,10 +93,14 @@ ul, ol {
 				top:0px;
 			}
 
+
 .tableThree{
 	display: inline-table;
 
 }
+
+
+
 
 #but {
 	background-color: #FFE521;
@@ -108,7 +112,7 @@ ul, ol {
   
 
 .tableFour{
-	background-color: #FFE521;
+	background-color: #fff;
 	padding:4%;
 	background-size: cover;
 }    
@@ -118,17 +122,13 @@ ul, ol {
 	padding: 3%;
 	border: solid white;
 	color: white;
-	font-size: 25px;
+	font-size: 20px;
 	font-family:Arial, Helvetica, sans-serif;
 	text-align: center;
 
 
 }
-.tableSix{
-	background-color: #FFE521;
-	padding:3%;
-	background-size: cover;
-} 
+
 
 @media (min-width: 320px) and (max-width: 375px){
 	body{
@@ -149,7 +149,7 @@ ul, ol {
 		font font-size: 20px;
 	}
 	p {
-		font font-size:8px;
+		font font-size:5px;
 	}
 }
 
