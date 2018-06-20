@@ -1,249 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-  <meta charset="UTF-8">
-  <title>Laboratoria</title>
-  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+  <title>Data Dashboard</title>
+  <link rel="stylesheet" href="../src/style.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 </head>
+
 <body>
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-3 headOne"><br>
-    <h2>Bienvenida</h2>
-        
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12 col-md-2 welcome"> <img id="userImg" src="../src/img/Vale.jpg" alt="..." class="img-thumbnail">
+        <div>VALENTINA SMITH</div>
+      </div>
+      <div class="col-6 col-md-10"><img src="../src/img/logo.png" alt=""></div>
     </div>
-    <div class="col-9 headTwo">
-      <h1><strong> < Laboratoria > </strong></h1>
-      <h3><strong> Talento que Transforma </strong></h3>
+
+    <div class="row">
+      <div class="col-6 col-md-2 secondRow">
+        <nav class="nav flex-column">
+          <a class="nav-link active" href="#!">Inicio</a>
+        </nav>
+      </div>
+      <div class="col-6 col-md-2 secondRow">
+        <nav class="nav flex-column">
+          <a class="nav-link" href="#!">Progreso</a>
+        </nav>
+      </div>
+      <div class="col-6 col-md-2 secondRow">
+        <nav class="nav flex-column">
+          <a class="nav-link" href="../src/index4.html">Agenda</a>
+        </nav>
+      </div>
+      <div class="col-6 col-md-2 secondRow">
+        <nav class="nav flex-column">
+          <a class="nav-link" href="../src/index5.html">Cerrar sesión</a>
+        </nav>
+      </div>
+      <div class="col-6 col-md-4 secondRow"></div>
+
     </div>
-    
-  </div>  
-    
-  
 
-    
-  <div class="row">  
-  <!--MENU DE INICIO CON 4 FILAS-->
-  
-    <div class="col-2">
-      <ul class="tableOne pos">
-        
-        <li><a href="https://lms.laboratoria.la/"><strong>Inicio</strong></a></li>
-          
-        <li><a href=""><strong>Progreso</strong></a></li>
-        <li><a href=""><strong>Estadisticas</strong></a></li>
-        <li><a href=""><strong>Ayuda</strong></a></li>
-        <li><a href="https://lms.laboratoria.la/"><strong>Cerrar Sesión</strong></a></li>
-          </ul>
-     
+    <div class="row">
+      <div class="col-6 col-md-4">
+        <div class="dropdown">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="btn2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Seleccionar cohort </button>
+          <div id="cohorts" aria-labelledby="dropdownMenu1"></div>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-8">
+      <div id="row">
+       <div class="col-6 col-md-8">
+        <form class="form-inline">
+          <input class="input" type="text" placeholder="Búsqueda">
+          <button class="searchBtn" type="submit">Buscar</button>
+        </form>
+        </div><br>
+       <div id="texto" class="col-6 col-md-8"></div>
+      </div>
     </div>
-    <div class="col-2"></div>
-    <!-- MENU DE LISTA DESPLEGABLE-->
-    <div class="col-4"><br>
-      <ul class="nav tableTwo">
-        
-        <li><a href=""><strong>Sede</strong></a>
-          <ul>
-            <li><a href=""><strong>Péru</strong></a>
-            <ul>
-                <li><a href="">2014</a>
-                <ul>
-                <li><a href="">2014-1 AM</a></li>
-                <li><a href="">2014-1 PM</a></li>
-                <li><a href="">2014-2 AM</a></li>
-                <li><a href="">2014-2 PM</a></li>
-                </ul></li>
-                <li><a href="">2015</a>
-                <ul>
-                <li><a href="">2015-1 AM</a></li>
-                <li><a href="">2015-1 PM</a></li>
-                <li><a href="">2015-2 AM</a></li>
-                <li><a href="">2015-2 PM</a></li>
-                </ul></li>
-                <li><a href="">2016</a>
-                <ul>
-                <li><a href="">2016-1 AM</a></li>
-                <li><a href="">2016-1 PM</a></li>
-                <li><a href="">2016-2 AM</a></li>
-                <li><a href="">2016-2 PM</a></li>
-                </ul></li>
-                <li><a href="">2017</a>
-                <ul>
-                <li><a href="">2017-1 AM</a></li>
-                <li><a href="">2017-1 PM</a></li>
-                <li><a href="">2017-2 AM</a></li>
-                <li><a href="">2017-2 PM</a></li>
-                </ul></li>
-                <li><a href="">2018</a>
-                <ul>
-                <li><a href="">2018-1 AM</a></li>
-                <li><a href="">2018-1 PM</a></li>
-                <li><a href="">2018-2 AM</a></li>
-                <li><a href="">2018-2 PM</a></li>
-                </ul></li>
-              </ul></li>
-            <li><a href=""><strong>Chile</a>
-            <ul>
-                <li><a href="">2014</a>
-                <ul>
-                <li><a href="">2014-1 AM</a></li>
-                <li><a href="">2014-1 PM</a></li>
-                <li><a href="">2014-2 AM</a></li>
-                <li><a href="">2014-2 PM</a></li>
-                </ul></li>
-                <li><a href="">2015</a>
-                <ul>
-                <li><a href="">2015-1 AM</a></li>
-                <li><a href="">2015-1 PM</a></li>
-                <li><a href="">2015-2 AM</a></li>
-                <li><a href="">2015-2 PM</a></li>
-                </ul></li>
-                <li><a href="">2016</a>
-                <ul>
-                <li><a href="">2016-1 AM</a></li>
-                <li><a href="">2016-1 PM</a></li>
-                <li><a href="">2016-2 AM</a></li>
-                <li><a href="">2016-2 PM</a></li>
-                </ul></li>
-                <li><a href="">2017</a>
-                <ul>
-                <li><a href="">2017-1 AM</a></li>
-                <li><a href="">2017-1 PM</a></li>
-                <li><a href="">2017-2 AM</a></li>
-                <li><a href="">2017-2 PM</a></li>
-                </ul></li>
-                <li><a href="">2018</a>
-                <ul>
-                <li><a href="">2018-1 AM</a></li>
-                <li><a href="">2018-1 PM</a></li>
-                <li><a href="">2018-2 AM</a></li>
-                <li><a href="">2018-2 PM</a></li>
-                </ul></li>
-              </ul></li>
-            <li><a href=""><strong>México</strong></a>
-            <ul>
-                <li><a href="">2014</a>
-                <ul>
-                <li><a href="">2014-1 AM</a></li>
-                <li><a href="">2014-1 PM</a></li>
-                <li><a href="">2014-2 AM</a></li>
-                <li><a href="">2014-2 PM</a></li>
-                </ul></li>
-                <li><a href="">2015</a>
-                <ul>
-                <li><a href="">2015-1 AM</a></li>
-                <li><a href="">2015-1 PM</a></li>
-                <li><a href="">2015-2 AM</a></li>
-                <li><a href="">2015-2 PM</a></li>
-                </ul></li>
-                <li><a href="">2016</a>
-                <ul>
-                <li><a href="">2016-1 AM</a></li>
-                <li><a href="">2016-1 PM</a></li>
-                <li><a href="">2016-2 AM</a></li>
-                <li><a href="">2016-2 PM</a></li>
-                </ul></li>
-                <li><a href="">2017</a>
-                <ul>
-                <li><a href="">2017-1 AM</a></li>
-                <li><a href="">2017-1 PM</a></li>
-                <li><a href="">2017-2 AM</a></li>
-                <li><a href="">2017-2 PM</a></li>
-                </ul></li>
-                <li><a href="">2018</a>
-                <ul>
-                <li><a href="">2018-1 AM</a></li>
-                <li><a href="">2018-1 PM</a></li>
-                <li><a href="">2018-2 AM</a></li>
-                <li><a href="">2018-2 PM</a></li>
-                </ul></li>
-              </ul></li>
-            <li><a href=""><strong>Brásil</strong></a>
-              <ul>
-                <li><a href="">2014</a>
-                <ul>
-                <li><a href="">2014-1 AM</a></li>
-                <li><a href="">2014-1 PM</a></li>
-                <li><a href="">2014-2 AM</a></li>
-                <li><a href="">2014-2 PM</a></li>
-                </ul></li>
-                <li><a href="">2015</a>
-                <ul>
-                <<li><a href="">2015-1 AM</a></li>
-                <li><a href="">2015-1 PM</a></li>
-                <li><a href="">2015-2 AM</a></li>
-                <li><a href="">2015-2 PM</a></li>
-                </ul></li>
-                <li><a href="">2016</a>
-                <ul>
-                <li><a href="">2016-1 AM</a></li>
-                <li><a href="">2016-1 PM</a></li>
-                <li><a href="">2016-2 AM</a></li>
-                <li><a href="">2016-2 PM</a></li>
-                </ul></li>
-                <li><a href="">2017</a>
-                <ul>
-                <li><a href="">2017-1 AM</a></li>
-                <li><a href="">2017-1 PM</a></li>
-                <li><a href="">2017-2 AM</a></li>
-                <li><a href="">2017-2 PM</a></li>
-                </ul></li>
-                <li><a href="">2018</a>
-                <ul>
-                <li><a href="">2018-1 AM</a></li>
-                <li><a href="">2018-1 PM</a></li>
-                <li><a href="">2018-2 AM</a></li>
-                <li><a href="">2018-2 PM</a></li>
-                </ul></li>
-              </ul>
-            </li>
-          </ul>
-        </li>
-        
-      </ul>
-    </div>
-    
-    <div class="col-4 tableThree"><br>
-      <form>
-      <input type="search" id="search" placeholder="Busqueda" name="search-example" required>
-      <button id="but" type="submit"><strong>< l ></strong>  </button>
-      </form>
-      
-    </div>
-    
-      
-  </div>
 
-  <!--cajas de colores -->
-
-  <div class="row">
-  <div class="col-2 tableFour"></div>
-  <div class="col-2"></div>
-  <div class="col-2 tableFive"> <p><strong>+ 800 </strong></p>
-  <P><strong>egresadas</strong></P></div>
-  <div class="col-2 tableFive">
-    <p><strong>+ 80% </strong></p>
-  <P><strong>colocación laboral </strong></P>
-  </div>
-  <div class="col-2 tableFive">
-    <p><strong>+ 200</strong></p>
-  <P><strong>empresas empleadoras</strong></P>
-  </div>
-  <div class="col-2"></div>
-
-  </div>
-  </div>
-
-        
-</div>
-
-
+   
+  </div> <!--Cierre container-fluid-->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-  
+<script src="../src/main.js"></script>
+<script src="../src/data.js"></script>
 </body>
 </html>
-  
-                

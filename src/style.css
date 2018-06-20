@@ -1,729 +1,153 @@
-/** {
-				margin:0px;
-				padding:0px;
-			}*/
+.col-md-10 {
+  background-color: #FFE521;
+  width: 60px;
+  height: 120px;
+}
 
-.container-fluid {
+.welcome {
+  text-align: center;
+  font-size: 12px;
+  margin-top: 2%;
+  font-family: museo-sans, "Helvetica Neue", Arial, sans-serif;
+}
+
+#userImg {
+  width: 45%;
+  border: solid thin black;
+  margin-left: 2%;
+  margin-top: -8%;
+}
+
+.secondRow {
+  background-color: #56F891;
+  color: black;
   width: 100%;
-  max-width: 1600px;
-  margin: 0;
 }
 
-.headOne{
-	background-color: white;
-	color: #000;
-	padding: 5%;
-	font-family:Arial, Helvetica, sans-serif;
-	text-align: center;
-
-
+.nav-link {
+  color: black;
+  font-family: museo-sans, "Helvetica Neue", Arial, sans-serif;
 }
 
-.headTwo {
-				background-color: #FFE521;
-				padding: 5%;
-				align-content: center;
-				width:500px;
-				font-family:Arial, Helvetica, sans-serif;
-				text-align: center;
-
-			}
-
-
-.pos {
-             	display: block;
-             }
-
-ul, ol {
-				list-style:none;
-			}
-
-			
-.tableOne li a {
-				background-color:#56F89A;
-				width: 100%;
-				color:#fff;
-				text-decoration:none;
-				/*border-top: solid white;
-				border bottom: solid white;*/
-				border: 5px solid white;
-				font-family:Arial, Helvetica, sans-serif;
-				text-align: center;
-				font-size: 15px;
-				padding:20px 80px;
-				display:block;
-			}	
-
-.tableOne li a:hover {
-				background-color:#000;
-				display:block;
-			}	
-
-            
-.tableTwo li a  {
-
-				background-color:#56F89A;
-				color:#fff;
-				text-decoration:none;
-				padding:10px 12px;
-				display:block;
-				text-align: center;
-			}
-			
-.tableTwo li a:hover {
-				background-color:#000;
-			}
-			
-.tableTwo li ul {
-				display:none;
-				position:absolute;
-				min-width:80px;
-			}
-			
-.tableTwo li:hover > ul {
-				display:block;
-			}
-			
-.tableTwo li ul li {
-				position:relative;
-			}
-			
-.tableTwo li ul li ul {
-				right:-140px;
-				top:0px;
-			}
-
-
-.tableThree{
-	display: inline-table;
-
+.nav-link:hover {
+  background-color: #56F880;
 }
 
+.cbg-info {
+  padding: 10%;
+  widows: 5px;
+}
+
+.col{
+  background-color: #FF009E;
+  margin: 2%;
+  width: 5%;
+  height: 30%;
+}
+
+img {
+  margin-left: 33%;
+  margin-top: 0.4%;
+  width: 35%;
+}
+
+#btn2 {
+  margin-right: 30%;
+  margin-top: 10%;
+  width: 100%;
+  background-color: #56F891;
+  color: black;
+  border: solid thin black;
 
 
-
-#but {
-	background-color: #FFE521;
-	color: #000;
-	width: 20%;
-	height: 20%;
-	font-size: 10px;
-			}
+  }
+#cohorts {
+  background-color: #FF009E;
   
+}
 
-.tableFour{
-	background-color: #fff;
-	padding:4%;
-	background-size: cover;
-}    
-
-.tableFive{
-	background-color: #FF009E;
-	padding: 3%;
-	border: solid white;
-	color: white;
-	font-size: 20px;
-	font-family:Arial, Helvetica, sans-serif;
-	text-align: center;
-
+#cohorts button {
+  background-color: #FF009E;
+  color: white;
+  font-size: 15px;
+  outline: none;
 
 }
 
-
-@media (min-width: 320px) and (max-width: 375px){
-	body{
-		[class*="col-"]{
-		width: 100%;
-		text-align: center;
-
-	}
-		
-	h1{
-		font-size: 40px;
-	}
-	h2{
-		font-size: 30px;
-
-	}
-	h3 {
-		font font-size: 20px;
-	}
-	p {
-		font font-size:5px;
-	}
+.searchBtn {
+  cursor: pointer;
+  color: #000000;
+  background-color: #56F891;
+  border: #000000;
+  border-radius: 5px;
+  width: 20%;
+  border-right: 90%;
 }
 
-@media (min-width: 376px) and (max-width: 666px){
-	body{
-		[class*="col-"]{
-		width: 100%;
-		text-align: center;
-
-	}
-		
-	h1{
-		font-size: 50px;
-	}
-	h2{
-		font-size: 40px;
-
-	}
-	h3 {
-		font font-size: 30px;
-	}
-	p {
-		font font-size:12px;
-	}
+.searchBtn:active {
+  background-color: #56F891;
+  transform: translateY(10%);
 }
 
-@media (min-width: 667px) and (max-width: 1024px){
-	body{
-		[class*="col-"]{
-		width: 100%;
-		text-align: center;
-
-	}
-		
-	
-	h1{
-		font-size: 60px;
-	}
-	h2{
-		font-size: 50px;
-
-	}
-	h3 {
-		font font-size: 40px;
-	}
-	p {
-		font font-size:15px;
-	}
+.input {
+border-radius: 5px;
+border: solid thin #000000;
 }
 
-@media (min-width: 1025px) and (max-width: 1600px){
-	body{
-		[class*="col-"]{
-		width: 100%;
-		text-align: center;
 
-	}
-		
-	
-	h1{
-		font-size: 80px;
-	}
-	h2{
-		font-size: 60px;
-
-	}
-	h3 {
-		font font-size: 40px;
-	}
-	p {
-		font font-size:15px;
-	}
+.form-inline {
+margin-top: 10%;
 }
 
-/*
-@media (min-width: 200px) and (max-width: 425) {
-	[class*="col-"]{
-		width: 100%;
-		text-align: center;
-
-	}
-	}
-
-	@media (min-width: 425px) and (max-width: 768px){
-		[class*="col-"]{
-		width: 100%;
-		text-align: center;
-
-	}
+.rowTable {
+  width: 50%;
+  margin-left: 30%;
+  text-align: center;
 }
-             /*
-             .pos {
-             	display: block;
-             }
 
-			ul, ol {
-				list-style:none;
-			}
-			
-			/*
-			.nav > li {
-				float:left;
-			}
-			*/
-			/*
-			.nav li a {
-				background-color:#56F89A;
-				color:#fff;
-				text-decoration:none;
-				padding:10px 12px;
-				display:block;
-			}
-			
-			.nav li a:hover {
-				background-color:#000;
-			}
-			
-			.nav li ul {
-				display:none;
-				position:absolute;
-				min-width:140px;
-			}
-			
-			.nav li:hover > ul {
-				display:block;
-			}
-			
-			.nav li ul li {
-				position:relative;
-			}
-			
-			.nav li ul li ul {
-				right:-140px;
-				top:0px;
-			}
+#dropdownMenu2 {
+  margin-top: 10%;
+  width: 40%;
+  background-color: #56F891;
+  color: black;
+  border: solid thin black;
+}
 
-			#but {
-				background-color: #FFE521;
-			}
-			
+#dropdownMenu3 {
+  width: 40%;
+  background-color: #56F891;
+  color: black;
+  border: solid thin black;
+}
 
+.agenda{
+  width: 50%;
+  border-top: 10%;
+  text-align: center;
+  margin-left: 30%;
+  border: solid thin #000000;
+  color: #000000;
+}
 
-
-/* Rectangle 2.5 */
-/*
-position: absolute;
-width: 145px;
-height: 32px;
-
-background: #56F89A;
-
-
-/* Rectangle 2.4 */
-
-/*position: absolute;
-width: 132px;
-height: 32px;
-
-background: #56F89A;
-
-
-/* Rectangle */
-
-/*position: absolute;
-width: 901px;
-height: 150px;
-
-background: #FFE521;
-
-
-/* Frame */
-
-/*position: relative;
-width: 132px;
-height: 96px;
-
-background: #FFFFFF;
-
-
-/* Rectangle 2 */
-
-/*position: absolute;
-width: 132px;
-height: 32px;
-left: -1px;
-top: 3px;
-
-background: #56F89A;
-
-
-/* Line */
-
-/*position: absolute;
-width: 1535px;
-height: 0px;
-left: 0px;
-top: 0px;
-
-border: 1px solid #000000;
-
-
-/* INICIO */
-
-/*position: absolute;
-width: 46px;
-height: 20px;
-left: 42px;
-top: 9px;
-
-font-family: Open Sans;
-font-style: normal;
-font-weight: bold;
-line-height: normal;
-font-size: 14px;
-
+.table-responsive {
 color: #000000;
+border: solid thin #000000;
+}
 
-
-/* Rectangle 2.3 */
-
-/*position: absolute;
-width: 132px;
-height: 32px;
-left: 0px;
-top: 71px;
-
-background: #56F89A;
-transform: matrix(1, 0, 0, -1, 0, 0);
-
-
-/* ESTADÍSTICAS */
-
-/*position: absolute;
-width: 96px;
-height: 20px;
-left: 13px;
-top: 46px;
-
-font-family: Open Sans;
-font-style: normal;
-font-weight: bold;
-line-height: normal;
-font-size: 14px;
-
+#btnEmail {
 color: #000000;
-
-
-/* AYUDA */
-
-/*position: absolute;
-width: 50px;
-height: 20px;
-
-font-family: Open Sans;
-font-style: normal;
-font-weight: bold;
-line-height: normal;
-font-size: 14px;
-
+font-family: Montserrat, "Helvetica Neue", Arial, sans-serif;
+background-color: #FFE521;
 color: #000000;
+width: 30%;
+}
 
+.form {
+width: 40%;
+margin-left: 30%;
+margin-top: 10%;
+}
 
-/* Rectangle 2.2 */
-
-/*position: absolute;
-width: 132px;
-height: 32px;
-
-background: #C4C4C4;
-background-blend-mode: lighten;
-mix-blend-mode: color-dodge;
-border: 4px solid #FF009E;
-box-sizing: border-box;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-
-
-/* Rectangle 5 */
-
-/*position: absolute;
-width: 153px;
-height: 100px;
-
-background: #FF009E;
-
-
-/* Rectangle 4 */
-
-/*position: absolute;
-width: 132px;
-height: 252px;
-
-background: #FFE521;
-
-
-/* Busqueda */
-
-/*position: absolute;
-width: 53px;
-height: 15px;
-
-font-family: Roboto;
-font-style: italic;
-font-weight: normal;
-line-height: normal;
-font-size: 12px;
-
+.password {
 color: #000000;
-
-
-/* Rectangle 3 */
-
-/*position: absolute;
-width: 37px;
-height: 23px;
-
-background: #FFE521;
-
-
-/* Rectangle 5.1 */
-
-/*position: absolute;
-width: 153px;
-height: 100px;
-
-background: #FF009E;
-
-
-/* Cantidad de alumnas Inscritas */
-
-/*position: absolute;
-width: 93px;
-height: 62px;
-
-font-family: Rokkitt;
-font-style: normal;
-font-weight: bold;
-line-height: normal;
-font-size: 18px;
-
-color: #FBFFFD;
-
-
-/* Rectangle 5.2 */
-
-/*position: absolute;
-width: 153px;
-height: 100px;
-
-background: #FF009E;
-
-
-/* < L > */
-
-/*position: absolute;
-width: 115px;
-height: 88px;
-
-font-family: Rokkitt;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-font-size: 48px;
-
-color: #FBFFFD;
-
-
-/* < Laboratoria > */
-
-/*position: absolute;
-width: 363px;
-height: 67px;
-
-font-family: Rokkitt;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-font-size: 48px;
-
-color: #000000;
-mix-blend-mode: normal;
-
-
-/* < L > */
-
-/*position: absolute;
-width: 27px;
-height: 17px;
-
-font-family: Open Sans;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
-font-size: 12px;
-
-color: #000000;
-
-
-/* < */
-
-/*position: absolute;
-width: 6px;
-height: 15px;
-
-font-family: Roboto;
-font-style: italic;
-font-weight: normal;
-line-height: normal;
-font-size: 12px;
-
-color: #000000;
-
-
-/* Rectangle 5.3 */
-/*
-position: absolute;
-width: 153px;
-height: 100px;
-
-background: #FF009E;
-
-
-/* Rectangle 6 */
-
-/*position: absolute;
-width: 132px;
-height: 150px;
-
-background: #FBFFFD;
-
-
-/* Bienvenida: Valentina */
-
-/*position: absolute;
-width: 110px;
-height: 50px;
-
-font-family: Open Sans;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
-font-size: 18px;
-
-color: #000000;
-
-
-/* Rectangle 2 */
-
-/*width: 132px;
-height: 32px;
-
-background: #56F89A;
-
-
-/* CONTACTOS */
-
-/*position: absolute;
-width: 94px;
-height: 20px;
-
-font-family: Open Sans;
-font-style: normal;
-font-weight: bold;
-line-height: normal;
-font-size: 14px;
-
-color: #000000;
-
-
-/* COHORT */
-
-/*position: absolute;
-width: 60px;
-height: 20px;
-
-font-family: Open Sans;
-font-style: normal;
-font-weight: bold;
-line-height: normal;
-font-size: 14px;
-
-color: #000000;
-
-
-/* > */
-
-/*position: absolute;
-width: 14px;
-height: 33px;
-
-font-family: Open Sans;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
-font-size: 24px;
-
-color: #000000;
-transform: rotate(88.17deg);
-
-
-/* Line */
-
-/*position: absolute;
-width: 20px;
-height: 0px;
-
-border: 4px solid #56F89A;
-transform: rotate(90deg);
-
-
-/* Talento que Transforma */
-
-/*position: absolute;
-width: 224px;
-height: 25px;
-
-font-family: Open Sans;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
-font-size: 18px;
-
-color: #000000;
-
-
-/* Porcentaje de cursos Completados */
-
-/*position: absolute;
-width: 99px;
-height: 62px;
-
-font-family: Rokkitt;
-font-style: normal;
-font-weight: bold;
-line-height: normal;
-font-size: 18px;
-
-color: #FBFFFD;
-
-
-/* Porcentaje general de progreso */
-
-/*position: absolute;
-width: 87px;
-height: 62px;
-
-font-family: Rokkitt;
-font-style: normal;
-font-weight: bold;
-line-height: normal;
-font-size: 18px;
-
-color: #FBFFFD;
-
-
-/* Rectangle 2.6 */
-
-/*position: absolute;
-width: 132px;
-height: 32px;
-
-background: #56F89A;
-
-
-/* CERRAR SESIÓN */
-
-/*position: absolute;
-width: 109px;
-height: 20px;
-
-font-family: Open Sans;
-font-style: normal;
-font-weight: bold;
-line-height: normal;
-font-size: 14px;
-
-color: #000000;
-*/
+}
