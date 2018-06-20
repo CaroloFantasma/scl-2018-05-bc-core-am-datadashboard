@@ -21,7 +21,7 @@
 .secondRow {
   background-color: #56F891;
   color: black;
-  width: 30%;
+  width: 100%;
 }
 
 .nav-link {
@@ -51,13 +51,27 @@ img {
   width: 35%;
 }
 
-#dropdownMenu1 {
-  margin-left: 30%;
+#btn2 {
+  margin-right: 30%;
   margin-top: 10%;
-  width: 40%;
+  width: 100%;
   background-color: #56F891;
   color: black;
   border: solid thin black;
+
+
+  }
+#cohorts {
+  background-color: #FF009E;
+  
+}
+
+#cohorts button {
+  background-color: #FF009E;
+  color: white;
+  font-size: 15px;
+  outline: none;
+
 }
 
 .searchBtn {
@@ -80,13 +94,6 @@ border-radius: 5px;
 border: solid thin #000000;
 }
 
-.col-sm {
-  background-color: #FF009E;
-  border: 30%;
-  margin: 5%;
-  width: 20%;
-  height: 20%;
-}
 
 .form-inline {
 margin-top: 10%;
