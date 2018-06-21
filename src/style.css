@@ -1,21 +1,21 @@
 .col-md-10 {
   background-color: #FFE521;
-  width: 60px;
-  height: 120px;
+  width: 100%;
 }
 
 .welcome {
   text-align: center;
   font-size: 12px;
-  margin-top: 2%;
   font-family: museo-sans, "Helvetica Neue", Arial, sans-serif;
+  background-color: #FFE521;
+  height: 40%;
 }
 
 #userImg {
   width: 45%;
   border: solid thin black;
   margin-left: 2%;
-  margin-top: -8%;
+  margin-top: 2%;
 }
 
 .secondRow {
@@ -26,44 +26,31 @@
 
 .nav-link {
   color: black;
-  font-family: museo-sans, "Helvetica Neue", Arial, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
 }
 
 .nav-link:hover {
   background-color: #56F880;
 }
 
-.cbg-info {
-  padding: 10%;
-  widows: 5px;
-}
-
-.col{
-  background-color: #FF009E;
-  margin: 2%;
-  width: 5%;
-  height: 30%;
-}
-
 img {
-  margin-left: 33%;
+  margin-left: 22%;
   margin-top: 0.4%;
-  width: 35%;
+  width: 32%;
 }
 
 #btn2 {
-  margin-right: 30%;
+  margin-left: 15%;
   margin-top: 10%;
   width: 100%;
   background-color: #56F891;
   color: black;
   border: solid thin black;
+}
 
-
-  }
 #cohorts {
-  background-color: #FF009E;
-  
+  background-color: #FF009E;  
 }
 
 #cohorts button {
@@ -71,29 +58,29 @@ img {
   color: white;
   font-size: 15px;
   outline: none;
-
 }
 
 .searchBtn {
   cursor: pointer;
   color: #000000;
   background-color: #56F891;
-  border: #000000;
+  border: solid thin #000000;
   border-radius: 5px;
-  width: 20%;
-  border-right: 90%;
-}
-
-.searchBtn:active {
-  background-color: #56F891;
-  transform: translateY(10%);
+  width: 100%;
 }
 
 .input {
 border-radius: 5px;
 border: solid thin #000000;
+margin-left: 40%;
+width: 5%;
 }
 
+.group {
+  padding-top: 5%;
+  padding-right: 10%;
+  width: 20%;
+}
 
 .form-inline {
 margin-top: 10%;
@@ -138,8 +125,7 @@ border: solid thin #000000;
 color: #000000;
 font-family: Montserrat, "Helvetica Neue", Arial, sans-serif;
 background-color: #FFE521;
-color: #000000;
-width: 30%;
+width: 40%;
 }
 
 .form {
