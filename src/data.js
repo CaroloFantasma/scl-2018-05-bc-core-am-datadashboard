@@ -1,3 +1,18 @@
+//variables conts y let
+const btn2 = document.getElementById('btn2');
+const btn3 = document.getElementById('progress');
+
+const container = document.getElementById('cohorts');
+const students = document.getElementById('texto');
+const usersJSON = '../data/cohorts/lim-2018-03-pre-core-pw/users.json';
+const progressJSON = '../data/cohorts/lim-2018-03-pre-core-pw/progress.json';
+const cohortsJSON = '../data/cohorts.json';
+let users = null;
+let progress = null;
+let cohorts = null;
+
+
+
 //	creando fetch del user
 fetch(usersJSON)
   .then(response => response.json())
@@ -49,17 +64,16 @@ const renderCohorts = cohorts => {
       let listItem = document.createElement('li');
       let aItem = document.createElement('button');
       aItem.textContent = myCohorts;
-      aItem.addEventListener('click', () =>
-      {
-        students.innerHTML = `<div id="texto">
-				<p>${element.name}</p>
-				</div>`;
+      aItem.addEventListener('click', () => {
+        students.innerHTML = `<p id='texto'>`+ renderUsers +`</p>`;
       });
       myList.appendChild(aItem);
       container.appendChild(myList);
     });
   });
 };
+
+/*
 
 window.computeUsersStats = (users, progress, courses) => {
 
@@ -86,10 +100,11 @@ window.processCohortData = (options) => {
 };
 window.computeUsersStats = (users, progress, courses) => {
 
+
 }
 
 window.filterUsers = (users, search) => {
 }
 
 window.processCohortData = (options) => {
-}
+} */

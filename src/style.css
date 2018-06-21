@@ -41,7 +41,7 @@ img {
 }
 
 #btn2 {
-  margin-left: 15%;
+  margin-right: : 15%;
   margin-top: 10%;
   width: 100%;
   background-color: #56F891;
@@ -50,15 +50,23 @@ img {
 }
 
 #cohorts {
-  background-color: #FF009E;  
+  background-color: #FFE521;  
 }
 
 #cohorts button {
-  background-color: #FF009E;
-  color: white;
-  font-size: 15px;
+  background-color: #FFE521;
+  color: black;
+  font-size: 20px;
   outline: none;
+  text-align: left;
 }
+#cohorts button:hover {
+  width: 100%;
+  background-color: #56F891;
+  color: black;
+  font-size: 20px;
+}
+
 
 .searchBtn {
   cursor: pointer;
