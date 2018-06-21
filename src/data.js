@@ -59,7 +59,7 @@ fetch(cohortsJSON)
     console.log(data);
     renderCohorts(data);
   });
-
+  const usersStats = window.computeUsersStats(data, )
 const renderCohorts = cohorts => {
     btn2.addEventListener('click', () => {
           const render = cohorts.forEach(element => {
@@ -81,8 +81,9 @@ const renderCohorts = cohorts => {
                   let html = '';
                   data.forEach(function(users) {
                     html +=
+                    
                       `
-        <li>${users.name}</li>`;
+                   <li>${users.name}</li>`;
                     console.log(data);
                   });
                   document.getElementById('resultado').innerHTML = html;
@@ -96,12 +97,27 @@ const renderCohorts = cohorts => {
           })
         })
   }
-/*
+
 
 window.computeUsersStats = (users, progress, courses) => {
-
+	return users.map((user)=>{
+		const userProgress = progress[user.id];
+		let percentSum = 0;
+		let totalCourses = 0;
+		for(let courseIndex in userProgress){
+			totalCourses++;
+			percentSum += userProgress[courseIndex].percent;
+		}
+		return {
+			...user,
+			stats : {
+				percent : percentSum / totalCourses 
+			}
+		};
+	});
 };
 
+/*
 //window.sortUsers(users,"name", "ASC")
 window.sortUsers = (users, orderBy, orderDirection) => {
   if (orderBy === 'name') {
