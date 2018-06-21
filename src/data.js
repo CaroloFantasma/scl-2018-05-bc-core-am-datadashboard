@@ -18,12 +18,14 @@ const renderUsers = users => {
 			let myUsers = element.name;
 			let myListUsers = document.createElement("ul");
 			let listItemUsers = document.createElement("li");
-			let aItemUsers = document.createElement("a");
-
-
-			aItemUsers.textContent = myUsers;
-			aItemUsers.href = "../index2.html";
-			myListUsers.appendChild(aItemUsers);
+			let bItem = document.createElement("button");
+			bItem.textContent = myUsers;
+			bItem.addEventListener("click", () => {
+				students.innerHTML = `<div id="texto">
+				<p>${element.name}</p>
+				</div>`
+			})
+			myListUsers.appendChild(bItem);
 			students.appendChild(myListUsers);
 		
 		})
