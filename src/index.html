@@ -3,14 +3,16 @@
 
 <head>
   <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Data Dashboard</title>
-  <link rel="stylesheet" href="../src/style.css" />
+  <link rel="stylesheet" href="../src/style.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 </head>
 
 <body>
-  <div class="container-fluid">
-    <div class="row">
+
+  <div class="col-xs-6 col-sm-8 col-md-12 container-fluid">
+    <div class="row mainHeader">
       <div class="col-12 col-md-2 welcome"> <img id="userImg" src="../src/img/Vale.jpg" alt="..." class="img-thumbnail">
         <div>VALENTINA SMITH</div>
       </div>
@@ -18,28 +20,26 @@
     </div>
 
     <div class="row">
-      <div class="col-6 col-md-2 secondRow">
+      <div class="col-6 col-md-3 secondRow">
         <nav class="nav flex-column">
-          <a class="nav-link active" href="#!">Inicio</a>
+          <a class="nav-link" href="#!">Inicio</a>
         </nav>
       </div>
-      <div class="col-6 col-md-2 secondRow">
+      <div class="col-6 col-md-3 secondRow">
         <nav class="nav flex-column">
           <a class="nav-link" href="#!">Progreso</a>
         </nav>
       </div>
-      <div class="col-6 col-md-2 secondRow">
+      <div class="col-6 col-md-3 secondRow">
         <nav class="nav flex-column">
           <a class="nav-link" href="../src/index4.html">Agenda</a>
         </nav>
       </div>
-      <div class="col-6 col-md-2 secondRow">
+      <div class="col-6 col-md-3 secondRow">
         <nav class="nav flex-column">
           <a class="nav-link" href="../src/index5.html">Cerrar sesión</a>
         </nav>
       </div>
-      <div class="col-6 col-md-4 secondRow"></div>
-
     </div>
 
     <div class="row">
@@ -51,23 +51,22 @@
       </div>
 
       <div class="col-6 col-md-8">
-      <div id="row">
-       <div class="col-6 col-md-8">
-        <form class="form-inline">
-          <input class="input" type="text" placeholder="Búsqueda">
-          <button class="searchBtn" type="submit">Buscar</button>
-        </form>
-        </div><br>
-       <div id="texto" class="col-6 col-md-8"></div>
+    <div class="input-group group">
+        <input type="text" class="form-control input" placeholder="Búsqueda" aria-label="" aria-describedby="basic-addon1">
+        <div class="input-group-append">
+          <button class="btn searchBtn" type="button">Buscar</button>
+        </div>
       </div>
     </div>
+  </div>
 
-   
   </div> <!--Cierre container-fluid-->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-<script src="../src/main.js"></script>
-<script src="../src/data.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+  <script src="../src/main.js"></script>
+  <script src="../src/data.js"></script>
 </body>
+
 </html>
