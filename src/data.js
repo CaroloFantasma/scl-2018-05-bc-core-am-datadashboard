@@ -9,7 +9,7 @@ fetch(usersJSON)
 	
 })
 
-/*
+
 
 const renderUsers = users => {
 	btn.addEventListener("click", () => {
@@ -29,7 +29,7 @@ const renderUsers = users => {
 		})
 	})
 }
- */
+
 //creando fetch del cohort
 
 fetch(cohortsJSON)
