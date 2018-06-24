@@ -24,7 +24,7 @@ La implementación mínima que debiara tener nuestro producto es la siguiente:
 3. Visualizarse sin problemas desde distintos tamaños de pantallas: móviles,
    tablets y desktops.
 
-   # ¿Qué problemas soluciona esta aplicación para el usuario y con qué frecuencia la utilizaría?
+<h2> ¿Qué problemas soluciona esta aplicación para el usuario y con qué frecuencia la utilizaría? </h2>
 
 Valentina revisa esta información todos los días o día por medio, generalmente desde su notebook o teléfono celular, por lo que es indispensable que nuestra aplicación sea ‘responsive’, para que así la pueda visualizar sin problemas de desconfiguración.
 
@@ -39,6 +39,8 @@ La primera parte del diseño se creó por medio de un sketch hecho a mano con l�
 Posteriormente, diseñamos un prototipo de interfaz de usuario de alta fidelidad utilizando una herramienta de diseño visual, en este caso “Figma”.
 
 Por último, trabajamos en la implementación de nuestra interfaz, dándole prioridad a implementar los requisitos esenciales que se pidieron para este proyecto.
+
+A continuación, puede ver nuestros diseños, en caso de no poder visualizarlos, por favor, ingrese a la carpera src/img-readme
 
 <b>Prototipo de baja fidelidad </b>
 ![alt text](src\img-readme\sketch1.jpg)
