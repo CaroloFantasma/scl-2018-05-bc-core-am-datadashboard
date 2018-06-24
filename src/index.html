@@ -13,13 +13,18 @@
 
   <div class="col-xs-6 col-sm-8 col-md-12 container-fluid">
     <div class="row mainHeader">
-      <div class="col-12 col-md-2 welcome"> <img id="userImg" src="../src/img/Vale.jpg" alt="..." class="img-thumbnail">
+      <div class="col-12 col-md-2 welcome"> <img id="userImg" src="img/Vale.jpg" alt="..." class="img-thumbnail">
         <div>VALENTINA SMITH</div>
       </div>
-      <div class="col-6 col-md-10"><img src="../src/img/logo.png" alt=""></div>
+      <div class="col-6 col-md-10"><img src="img/logo.png" alt=""></div>
     </div>
 
     <div class="row">
+      <div class="col-6 col-md-3 secondRow">
+        <nav class="nav flex-column">
+          <a class="nav-link" href="#!"></a>
+        </nav>
+      </div>
       <div class="col-6 col-md-3 secondRow">
         <nav class="nav flex-column">
           <a class="nav-link" href="#!">Inicio</a>
@@ -27,53 +32,53 @@
       </div>
       <div class="col-6 col-md-3 secondRow">
         <nav class="nav flex-column">
-          <a class="nav-link" href="#!">Progreso</a>
+          <a class="nav-link" href="">Cerrar sesión</a>
         </nav>
       </div>
       <div class="col-6 col-md-3 secondRow">
         <nav class="nav flex-column">
-          <a class="nav-link" href="../src/index4.html">Agenda</a>
-        </nav>
-      </div>
-      <div class="col-6 col-md-3 secondRow">
-        <nav class="nav flex-column">
-          <a class="nav-link" href="../src/index5.html">Cerrar sesión</a>
+          <a class="nav-link" href=""></a>
         </nav>
       </div>
     </div>
- <!--aqui se seleccionan los cohorts -->
+    <!--aqui se seleccionan los cohorts -->
     <div class="row">
       <div class="col-6 col-md-4">
         <div class="dropdown">
           <button class="btn btn-secondary dropdown-toggle" type="button" id="btn2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Seleccionar cohort </button>
           <div id="logo2">Esperemos que carguen los cohorts<i class="fa fa-heart"></i></div>
-           <!--aqui va la lista de cohorts -->
+          <!--aqui va la lista de cohorts -->
           <div id="cohorts" aria-labelledby="dropdownMenu1"></div>
         </div>
       </div>
- <!--aqui va el cuadro de busqueda-->
-      <div class="col-6 col-md-8">
-        <div class="row">
-          <div class="col-6 col-md-8">
-            <div class="input-group group">
-               <input id="myInput" type="text" class="form-control input"  placeholder="Búsqueda" aria-label="" aria-describedby="basic-addon1">
-               <!-- aqui va la lista desplegable -->
-                            
-             </div>
+      <!-- aqui va la lista desplegable -->
+      <div class="col-6 col-md-4">
+        <div class="dropdown">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Odenar
+                  </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">Ascendente</a>
+            <a class="dropdown-item" href="#">Descendente</a>
+            <a class="dropdown-item" href="#"></a>
           </div>
-         
         </div>
         <!--aqui va la lista de las alumnas -->
         <div class="row">
           <div class="col-6 col-md-8">
-            <li id="texto"></li></div>
+            <li id="texto"></li>
           </div>
-           
         </div>
       </div>
+       <!--aqui va el cuadro de busqueda-->
+       <div class="col-6 col-md-4">
+          <div class="input-group group">
+            <input id="myInput" type="text" class="form-control input" placeholder="Búsqueda" aria-label="" aria-describedby="basic-addon1">
+          </div>
+        </div>
+    </div>
   </div>
-
-  </div> <!--Cierre container-fluid-->
+  <!--Cierre container-fluid-->
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
