@@ -1,0 +1,111 @@
+.col-md-10 {
+  background-color: #FFE521;
+  width: 100%;
+}
+
+.welcome {
+  text-align: center;
+  font-size: 12px;
+  font-family: museo-sans, "Helvetica Neue", Arial, sans-serif;
+  background-color: #FFE521;
+  height: 40%;
+}
+
+#userImg {
+  width: 45%;
+  border: solid thin black;
+  margin-left: 2%;
+  margin-top: 2%;
+}
+
+.secondRow {
+  background-color: #56F891;
+  color: black;
+  width: 100%;
+}
+
+.nav-link {
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+}
+
+.nav-link:hover {
+  background-color: #56F880;
+}
+
+img {
+  margin-left: 22%;
+  margin-top: 0.4%;
+  width: 32%;
+}
+
+#btn2 {
+  margin-right: 15%;
+  margin-top: 10%;
+  width: 100%;
+  background-color: #56F891;
+  color: black;
+  border: solid thin black;
+}
+
+#cohorts {
+  background-color: #FFE521;  
+}
+
+#cohorts button {
+  background-color: #FFE521;
+  color: black;
+  font-size: 20px;
+  outline: none;
+  text-align: left;
+}
+#cohorts button:hover {
+  width: 100%;
+  background-color: #56F891;
+  color: black;
+  font-size: 20px;
+}
+
+
+.searchBtn {
+  cursor: pointer;
+  color: #000000;
+  background-color: #56F891;
+  border: solid thin #000000;
+  border-radius: 5px;
+  width: 100%;
+}
+
+#myInput {
+border-radius: 5px;
+border: solid thin #000000;
+margin-right: 8%;
+margin-top: 6%;
+width: 2%;
+}
+
+.group {
+  padding-top: 5%;
+  padding-right: 10%;
+  width: 20%;
+}
+
+.form-inline {
+margin-top: 10%;
+}
+
+.rowTable {
+  width: 50%;
+  margin-left: 30%;
+  text-align: center;
+}
+
+#dropdownMenuButton {
+  margin-top: 10%;
+  margin-left: 40%;
+  width: 40%;
+  background-color: #56F891;
+  color: black;
+  border: solid thin black;
+}
