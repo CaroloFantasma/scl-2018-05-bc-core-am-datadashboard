@@ -41,31 +41,35 @@
         </nav>
       </div>
     </div>
-
+ <!--aqui se seleccionan los cohorts -->
     <div class="row">
       <div class="col-6 col-md-4">
         <div class="dropdown">
           <button class="btn btn-secondary dropdown-toggle" type="button" id="btn2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Seleccionar cohort </button>
+          <div id="logo2">Esperemos que carguen los cohorts<i class="fa fa-heart"></i></div>
+           <!--aqui va la lista de cohorts -->
           <div id="cohorts" aria-labelledby="dropdownMenu1"></div>
         </div>
       </div>
-
+ <!--aqui va el cuadro de busqueda-->
       <div class="col-6 col-md-8">
         <div class="row">
           <div class="col-6 col-md-8">
             <div class="input-group group">
-               <input type="text" class="form-control input" placeholder="Búsqueda" aria-label="" aria-describedby="basic-addon1">
-             <div class="input-group-append">
-              <button class="btn searchBtn" type="button">Buscar</button>
-             </div>
+               <input id="myInput" type="text" class="form-control input"  placeholder="Búsqueda" aria-label="" aria-describedby="basic-addon1">
+               <!-- aqui va la lista desplegable -->
+                            
              </div>
           </div>
-         </div><br>
-       <div class="row">
-       <div class="col-6 col-md-8">
          
-         <ul id="resultado"></ul>
-       </div>
+        </div>
+        <!--aqui va la lista de las alumnas -->
+        <div class="row">
+          <div class="col-6 col-md-8">
+            <li id="texto"></li></div>
+          </div>
+           
+        </div>
       </div>
   </div>
 
