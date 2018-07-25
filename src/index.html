@@ -53,7 +53,7 @@
       <!-- aqui va la lista desplegable -->
       <div class="col-6 col-md-4">
         <div class="dropdown">
-          <button id="listSort" onclick="orderedList()">ASC</button>
+          <button id="listSort" onclick="orderedList()">Ordenar lista</button>
         </div>
         <!--aqui va la lista de las alumnas -->
         <div class="row">
@@ -65,14 +65,13 @@
        <!--aqui va el cuadro de busqueda-->
        <div class="col-6 col-md-4">
           <div class="input-group group">
-            <input id="searchInput" onkeyup="filterInput()" type="text" class="form-control input" placeholder="Búsqueda" aria-label="" aria-describedby="basic-addon1">
+            <input id="searchInput" onkeyup="filterInput()" type="text" class="form-control input" placeholder="Búsqueda por alumna" aria-label="" aria-describedby="basic-addon1">
           </div>
         </div>
+        <div id="studentContainer"></div>
     </div>
 
-    <div id="studentContainer">
-
-    </div>
+    
 
   </div>
   <!--Cierre container-fluid-->

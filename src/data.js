@@ -70,7 +70,6 @@ const renderCohorts = cohorts => {
   });
 };
 
-
 function gettingData() { 
   if (users && progress && cohorts) {
     const cohort = cohorts.find(item => item.id === 'lim-2018-03-pre-core-pw');
@@ -126,4 +125,30 @@ function filterInput() {
 //   });
 // };
 
+
+// const renderCohorts = cohorts => {
+//   btn2.addEventListener('click', () => {
+//         const render = cohorts.forEach(element => {
+//           // element.name ==
+//           let myCohorts = element.id;
+//           let myList = document.createElement('ul');
+//           let listItem = document.createElement('li');
+//           let aItem = document.createElement('button');
+//           aItem.textContent = myCohorts;
+//           myList.appendChild(aItem);
+//           container.appendChild(myList);
+//           aItem.addEventListener('click', () => {
+//           let usersStats = window.computeUsersStats(users, progress, Object.keys(element.coursesIndex));
+//           let myListUP = document.createElement('ul');
+//           let listItemUP = document.createElement('li');
+//           let aItemUP = document.createElement('button');
+//           aItemUP.textContent = usersStats.sort(); //uso de sort para tener nombres por orden alfabetico
+//           myListUP.appendChild(aItemUP);
+//           students.appendChild(myListUP);
+
+
+//           })
+//         })
+//       });
+// }
 
