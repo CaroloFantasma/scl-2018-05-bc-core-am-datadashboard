@@ -46,7 +46,6 @@
       <div class="col-6 col-md-4">
         <div class="dropdown">
           <button class="btn btn-secondary dropdown-toggle" type="button" id="btn2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Seleccionar cohort </button>
-          <div id="logo2">Esperemos que carguen los cohorts<i class="fa fa-heart"></i></div>
           <!--aqui va la lista de cohorts -->
           <div id="cohorts" aria-labelledby="dropdownMenu1"></div>
         </div>
@@ -54,14 +53,7 @@
       <!-- aqui va la lista desplegable -->
       <div class="col-6 col-md-4">
         <div class="dropdown">
-          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Ordenar
-                  </button>
-          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <a class="dropdown-item" href="#">Ascendente</a>
-            <a class="dropdown-item" href="#">Descendente</a>
-            <a class="dropdown-item" href="#"></a>
-          </div>
+          <button id="listSort" onclick="orderedList()">ASC</button>
         </div>
         <!--aqui va la lista de las alumnas -->
         <div class="row">
@@ -73,13 +65,11 @@
        <!--aqui va el cuadro de busqueda-->
        <div class="col-6 col-md-4">
           <div class="input-group group">
-            <input id="myInput" type="text" class="form-control input" placeholder="Búsqueda" aria-label="" aria-describedby="basic-addon1">
+            <input id="searchInput" onkeyup="filterInput()" type="text" class="form-control input" placeholder="Búsqueda" aria-label="" aria-describedby="basic-addon1">
           </div>
         </div>
     </div>
 
-    <button id="listSort" onclick="orderedList()">ASC</button>
-    <input id="searchInput" onkeyup="filterInput()"></input>
     <div id="studentContainer">
 
     </div>
